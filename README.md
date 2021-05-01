@@ -35,3 +35,6 @@ It provides an interface for protecting attributes from end-user assignment. Thi
 In addition, parameters can be marked as required and flow through a predefined raise/rescue flow to end up as a 400 Bad Request with no effort.`
 
 * Note in bash do `rails routes` and it will show us the routes we created. You can test these with postman. eg: localhost:3000/api/v1/airlines.json
+
+## Frontend
+1. In app/javascript/packs/hello_react.tsx we have a react view. We need add `<%= javascript_pack_tag 'hello_react' %>` it to our index view (create it). And to our application.html.erb
